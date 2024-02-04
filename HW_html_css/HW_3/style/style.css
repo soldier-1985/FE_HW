@@ -1,0 +1,307 @@
+html {
+    font-size: 20px;
+}
+body {
+    margin: 0;
+}
+/* .container {
+    width: 900px;
+    height: 1200px;
+    background-color: #FFF;
+    border: 1px solid hsl(0, 2%, 72%);
+    margin: 50px auto; 
+}*/
+
+.header {
+    
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Roboto;
+    font-weight: 900;
+    line-height: 148%;
+    padding-top: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+.baner {
+    width: 100%;
+    height: 766px;
+    background-image: url(../image/bg.png);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 250px 150px 100px 150px;
+    
+    
+}
+.header-strong {
+    color: #3E45E8;
+}
+.header-ukraine {
+    color: #E8C23E;
+}
+.rectangle-yellow {
+    width: 100%;
+    height: 135px;
+    background: linear-gradient(180deg, #FFA800 0%, #FFF500 100%)
+}
+.rectangle {
+    width: 20px;
+    height: 200px;
+    
+    float: left;
+}
+.rectangle-blue {
+    width: 100%px;
+    height: 135px;
+    background: linear-gradient(180deg, #00E0FF 0%, #1400FF 100%);
+}
+
+.text {
+    text-align: left;
+    color: #FFF;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 5% 0 5%;
+    line-height: 148%;
+    
+
+}
+.text2 {
+    width: 55%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 50px 50px 10px 50px;
+}
+.rectangle_2 {
+    width: 4px;
+    height: 0px;
+    margin: 0 ;
+    transform: rotate(270deg);
+    
+    
+
+}
+.rectangle_2-blue {
+    width: 100%;
+    height: 360px;
+    background: linear-gradient(180deg, #00E0FF 0%, #1400FF 100%);
+    
+}
+
+.rectangle_2-yellow {
+    width: 100%;
+    height: 425px;
+    background: linear-gradient(180deg, #FFA800 0%, #FFF500 100%);
+}
+.card {
+    display: inline-block;
+    width: 100%;
+}
+.card-t {
+    width: 310px;
+    border-radius: 30px 30px 20px 20px;
+    border: 5px solid #000;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    box-shadow:-10px 10px 20px lightskyblue;
+    
+}
+.card-k {
+    width: 310px;
+    border-radius: 30px 30px 20px 20px;
+    border: 5px solid #000;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    box-shadow: 10px 10px 20px lightskyblue ;
+    
+}
+
+
+.l-m4 {
+    width: 310px;
+    border-radius: 30px 30px 20px 20px;
+    border: 5px solid #000;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    box-shadow: -10px 10px 20px lightskyblue; 
+}
+.tustan {
+    width: 100%;
+    
+}
+.luck {
+    width: 100%;
+}
+.kamyan {
+    width: 100%;
+}
+
+.tustan-footer {
+    color: #0072DB;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+}
+
+.luck-footer {
+    color: #0072DB;
+    font-family: Inika;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.kamyan-footer {
+    color: #0072DB;
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.tustan-end {
+    color: #F90;
+    font-family: Inika;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+
+.luck-end {
+    color: #F90;
+    font-family: Inika;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.kamyan-end {
+    color: #F90;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    display: inline-block;
+    margin-left: 10px;
+}
+a {
+    text-decoration: none;
+}
+.ukraine {
+    width: 38rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Inika;
+    font-weight: 900;
+    line-height: 148%;
+    padding-top: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 8px solid #1400FF;
+    margin: 0 auto;
+}
+
+.map {
+    width: 80%;
+    margin: 50px auto;
+    
+}
+.map > img {
+    width: 100%;
+}
+
+.go {
+    width: 500px;
+    height: 81px;
+    background-color:#2A61F0;
+    border-radius: 50px;
+    margin:50px auto ;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.footer {
+    width: 100%;
+    height: 233px;
+    text-align: center;
+    background: linear-gradient(to bottom, #013235 0%, #0D0661 100%);
+
+
+}
+    
+   
+    
+
+.footer-strong {
+    color: #3E45E8;
+    font-family: Roboto;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: normal; */
+    letter-spacing: 4.8px;
+}
+
+.footer-ukraine {
+    color: #DFE31E;
+font-family: Roboto;
+font-size: 2.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 4.8px;
+}
+
+.footer >span>a {
+    text-decoration: none;
+    color: #A89D9D;
+    font-family: Marcellus SC;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+}
+.footer-phone {
+    color: #A89D9D;
+    font-family: Marcellus SC;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 3.6px;
+}
+
+.icon {
+    display: inline-block;
+    text-align:center;
+    width: 300px;
+    
+}
+
+
+ 
